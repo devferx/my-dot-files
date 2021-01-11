@@ -1,0 +1,122 @@
+{
+  // ==============================================
+  // 🧰 VS Code Preferences
+  // ==============================================
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.linkedEditing": true, // Auto renaming HTML tags & Auto closing HTML tags
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "workbench.activityBar.visible": false,
+  // 🌈 THEMING ===================================
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react_redux",
+  // ==============================================
+  // 🌞 Ligth Mode
+  // ==============================================
+  // "workbench.colorTheme": "Nako Light",
+  // "editor.fontSize": 16,
+  // "editor.fontFamily": "'Victor Mono', 'Consolas', 'monospace', monospace",
+  // ==============================================
+  // 🌚 Dark Mode
+  // ==============================================
+  "workbench.colorTheme": "Default Dark+",
+  "editor.fontFamily": "'Consolas', 'monospace', monospace",
+  "editor.fontSize": 15,
+  // ==============================================
+  // My Personal Custom Monokai Night
+  // ==============================================
+  "workbench.colorCustomizations": {
+    "[Monokai Night]": {
+      "editor.background": "#0C1012",
+      "sideBar.background": "#0C1012",
+      "activityBar.background": "#0C1012",
+      "editorGutter.background": "#0C1012",
+      "panel.background": "#0C1012",
+      "statusBar.background": "#0C1012",
+      "terminal.background": "#0C1012",
+      "input.background": "#0C1012"
+    },
+  },
+  // ==============================================
+  // Custom Nako from @jonalvarezz
+  // ==============================================
+  "editor.tokenColorCustomizations": {
+    "[Nako]": {
+      "comments": {
+        "fontStyle": "italic"
+      },
+      "types": {
+        "fontStyle": "italic"
+      },
+      "keywords": {
+        "fontStyle": "italic"
+      }
+    },
+    "[Nako Light]": {
+      "comments": {
+        "fontStyle": "italic"
+      },
+      "types": {
+        "fontStyle": "italic"
+      },
+      "keywords": {
+        "fontStyle": "bold italic"
+      }
+    }
+  },
+  // 🔥 LANGUAGES CONFIG ==========================
+  // ==============================================
+  // 📗 Web Config
+  // ==============================================
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascript"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ==============================================
+  // 📘 Flutter Config
+  // ==============================================
+  "dart.flutterSdkPath": "/home/devferx/snap/flutter/common/flutter",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  // 🔥 PLUGINS CONFIG ============================
+  "liveServer.settings.donotShowInfoMsg": true,
+  "sync.gist": "3195e3779231725bb3684f164be9757a",
+  "prettier.singleQuote": true,
+  "prettier.requireConfig": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.highlights.enabled": false
+}
